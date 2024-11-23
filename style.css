@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-family: Arial sans-serif;
+}
+#container{
+    text-align: center;
+}
+label{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.75rem;
+    border: 1px solid;
+    padding: 10px 15px;
+}
+button{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: hsl(240, 52%, 66%);
+}
+button:hover{
+    background-color: hsl(240, 70%, 57%);
+    box-shadow: 5px 5px 15px;
+}
+button:active{
+    background-color: hsl(240, 91%, 51%);
+}
